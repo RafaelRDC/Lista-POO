@@ -1,3 +1,4 @@
+package com.mycompany.appagenda;
 import java.util.Scanner;
 /**
  *

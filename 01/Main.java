@@ -1,3 +1,4 @@
+package com.mycompany.appagenda;
 /**
  *
  * @author Rafael Dana
