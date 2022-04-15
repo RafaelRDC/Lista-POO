@@ -7,6 +7,7 @@ public class Produto {
     String nome;
     double preco;
     int qntEstoque;
+    int qntFinal;
 
     public void defNome(String nome) {
         this.nome = nome;
@@ -17,6 +18,9 @@ public class Produto {
     public void defQntEstoque(int qntEstoque) {
         this.qntEstoque = qntEstoque;
     } 
+    public void defQntPedido(int qntFinal) {
+        this.qntFinal = qntFinal;
+    }
     public String pegaNome() {
         return nome;
     }
